@@ -1,0 +1,239 @@
+/* ====================================================================================
+  SLIDESHOW
+==================================================================================== */
+/*  Slides Color Assignment
+==================================================================================== */
+
+/*  Slide 1  */
+#slider_block_1 {
+    background-color: #08759f;
+}
+
+#slider_block_1 {
+    background-image: url("https://assets.jumpseller.com/store/celudigital/themes/208533/options/11331896/Imagen.jpg?1567818474");
+}
+
+#slider_block_1 .slider-block__title {
+    color: #16a1ee;
+}
+
+#slider_block_1 .slider-block__text {
+    color: #ffffff;
+}
+
+#slider_block_1 .slider-block__button--first {
+    color: #16a1ee;
+    background: #ffffff;
+}
+
+#slider_block_1 .slider-block__button--second {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #slider_block_1,
+    #slider_block_2,
+    #slider_block_3,
+    #slider_block_4 {
+        background-position: center center;
+        background-size: cover !important;
+    }
+}
+
+/*  Slide 2  */
+#slider_block_2 {
+    background-color: #054056;
+}
+
+#slider_block_2 {
+    background-image: url("https://assets.jumpseller.com/store/celudigital/themes/208533/options/11331914/Baner%202.jpg?1567901428");
+}
+
+#slider_block_2 .slider-block__title {
+    color: #16a1ee;
+}
+
+#slider_block_2 .slider-block__text {
+    color: #fbf7f7;
+}
+
+#slider_block_2 .slider-block__button--first {
+    color: #dcdcdc;
+    background: #ffffff;
+}
+
+#slider_block_2 .slider-block__button--second {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+
+
+/*  Slide 3  */
+#slider_block_3 {
+    background-color: #08759F;
+}
+
+#slider_block_3 {
+    background-image: url("https://assets.jumpseller.com/store/celudigital/themes/208533/options/11331932/banner%20computadores.jpg?1593905148");
+}
+
+#slider_block_3 .slider-block__title {
+    color: #16a1ee;
+}
+
+#slider_block_3 .slider-block__text {
+    color: #FFFFFF;
+}
+
+#slider_block_3 .slider-block__button--first {
+    color: #024964;
+    background: #FFFFFF;
+}
+
+#slider_block_3 .slider-block__button--second {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+/* ====================================================================================
+  FEATURES
+==================================================================================== */
+/*  Features Actions
+==================================================================================== */
+.features-actions__button {
+    color: #ffffff !important;
+    background: #16a1ee !important;
+}
+
+/*  Features Color Assignments
+==================================================================================== */
+#features {
+    background: #ffffff;
+}
+
+/*  Features Titles  */
+#features .page-heading__title,
+#features .features-block__title,
+#features .features-block__icon {
+    color: #000000;
+}
+
+/*  Features Texts  */
+#features .page-heading__text,
+#features .features-block__text {
+    color: #616161;
+}
+
+
+/* ====================================================================================
+  SPECIFICATIONS
+==================================================================================== */
+/*  Spec Color Assignment
+==================================================================================== */
+/*  Spec 1  */
+#product-spec__first {
+    background: #f9f9fb;
+}
+
+#product-spec__first .product-spec__content-title {
+    color: #16a1ee !important;
+}
+
+#product-spec__first .product-spec__content-text {
+    color: #616161;
+}
+
+#product-spec__first .product-spec__content-button {
+    color: #616161 !important;
+    border-color: #616161 !important;
+}
+
+#product-spec__first .product-spec__content-button:hover {
+    background: #616161 !important;
+    color: #FFF !important;
+}
+
+/*  Spec 2  */
+#product-spec__second {
+    background: #000000;
+}
+
+#product-spec__second .product-spec__content-title {
+    color: #ffffff !important;
+}
+
+#product-spec__second .product-spec__content-text {
+    color: #616161;
+}
+
+#product-spec__second .product-spec__content-button {
+    color: #00a6ff !important;
+    border-color: #00a6ff !important;
+}
+
+#product-spec__second .product-spec__content-button:hover {
+    background: #16a1ee !important;
+    color: #FFF !important;
+}
+
+/*  Spec 3  */
+#product-spec__third {
+    background: #F9F9FB;
+}
+
+#product-spec__third .product-spec__content-title {
+    color: #024964 !important;
+}
+
+#product-spec__third .product-spec__content-text {
+    color: #0a0a0a;
+}
+
+#product-spec__third .product-spec__content-button {
+    color: #024964 !important;
+    border-color: #024964 !important;
+}
+
+#product-spec__third .product-spec__content-button:hover {
+    background: #024964 !important;
+    color: #FFF !important;
+}
+
+/* ====================================================================================
+  FEATURED PRODUCTS
+==================================================================================== */
+/*  Featured Products Heading & Actions
+==================================================================================== */
+#featured-products .page-heading__title {
+    color: #024964;
+}
+
+#featured-products .page-heading__text {
+    color: #40758a;
+}
+
+#featured-products .featured-products__actions-button,
+.blog-feed__actions .button.blue {
+    color: #ffffff;
+    background: #ace2ff;
+}
+
+/* ====================================================================================
+  TESTIMONIALS
+==================================================================================== */
+/*  Testimonials Color Assignment
+==================================================================================== */
+#testimonials {
+    background: #757575;
+}
+
+.testimonials-heading__title {
+    color: #16a1ee;
+}
+
+.testimonials-quotes__block-text {
+    color: #ffffff;
+}

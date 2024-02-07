@@ -1,0 +1,319 @@
+/* ====================================================================================
+  STORE COLOR PICKERS STYLES
+==================================================================================== */
+/*  Main Navigation
+==================================================================================== */
+/*  Color Assignment  */
+.main-nav__menu-logo-anchor,
+.main-nav__menu-item-anchor,
+.main-nav__menu-item-string,
+.main-nav__submenu-item-anchor,
+.mobile-nav__center-anchor {
+    color: #000000 !important;
+}
+
+.main-nav__menu-item-divider {
+    background: #000000 !important;
+}
+
+.main-nav__menu-item-anchor--cart>span,
+.title-bar-right.mobile-nav__right>button>span,
+.title-bar-right.mobile-nav__right>a>span {
+    background: #000000 !important;
+}
+
+.top-bar-left .main-nav__menu-item-anchor:before {
+    background: #000000 !important;
+}
+
+.toast,
+.toast-success {
+    background-color: #024964 !important;
+}
+
+/*  Transitions & Opacities  */
+.top-bar-left .main-nav__menu-item-anchor:before {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.main-nav__menu-item-anchor {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.main-nav__submenu-item-anchor {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.main-nav__menu-item-anchor:hover,
+.main-nav__menu-item-anchor:focus,
+.is-active>.main-nav__menu-item-anchor,
+.main-nav__submenu-item-anchor:hover,
+.main-nav__submenu-item-anchor:focus,
+.is-active>.main-nav__submenu-item-anchor {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.main-nav__menu-item-divider {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    filter: alpha(opacity=25);
+    -moz-opacity: 0.25;
+    -khtml-opacity: 0.25;
+    opacity: 0.25;
+}
+
+/*  Page Heading
+==================================================================================== */
+.page-heading__title {
+    color: #000000 !important;
+}
+
+.page-heading__text,
+.page-heading__text p {
+    color: #000000 !important;
+}
+
+/*  Footer
+==================================================================================== */
+footer {
+    background: #000000 !important;
+}
+
+.footer-subscribe__title,
+.footer-subscribe__text,
+.footer-about__title,
+.footer-about__description,
+.footer-about__social-item-anchor,
+.footer-top__block-title,
+.footer-top__menu-item-anchor,
+.footer-top__menu-item-string,
+.footer-copyright__text,
+.footer-copyright__text a {
+    color: #FFFFFF !important;
+}
+
+/*  Footer Texts & Links Opacities and transitions  */
+.footer-subscribe__text,
+.footer-about__description,
+.footer-about__social-item-anchor,
+.footer-top__menu-item-anchor,
+.footer-top__menu-item-string,
+.footer-copyright__text a:hover,
+.footer-copyright__text a:focus {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.footer-about__social-item-anchor:hover,
+.footer-about__social-item-anchor:focus,
+.footer-top__menu-item-anchor:hover,
+.footer-top__menu-item-anchor:focus {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.footer-copyright__text,
+.footer-copyright__text a {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+/*  Blog Post
+==================================================================================== */
+.post-block__excerpt {
+    color: ;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.post-block__anchor {
+    color: !important;
+    background: !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.post-block__anchor:hover,
+.post-block__anchor:focus {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+
+
+
+
+
+
+/* ====================================================================================
+  CART AND CHECKOUT
+==================================================================================== */
+
+
+
+.product-block__name,
+.product-block__price,
+.button.blue.bordered,
+.product-block__view-details {
+    color: #000000 !important;
+}
+
+.cart-heading__title,
+.cart-order__heading-block-title,
+.cart-summary__totals-string,
+.cart-order__product-name,
+.cart-order__product-option,
+.cart-order__product-price,
+.cart-order__product-block-title,
+.cart-estimate__title,
+.cart-estimate__field label,
+#estimate_shipping_button,
+#set_shipping_button,
+.customer-page__heading-title,
+.main-nav__menu-item-string.current,
+.customer-orders__block-info-string,
+.customer-box__heading-title,
+.mobile-nav__button,
+.mobile-nav__center-anchor,
+.cart-breadcrumbs .cart-breadcrumbs__menu-string,
+.cart-breadcrumbs .cart-breadcrumbs__menu-anchor:hover,
+.cart-breadcrumbs .cart-.cart-breadcrumbs breadcrumbs__menu-anchor:focus,
+.cart-breadcrumbs .current>.cart-breadcrumbs__menu-string,
+.cart-breadcrumbs__menu-item .cart-breadcrumbs__menu-anchor,
+.page-content__title,
+.page-sidebar__title,
+.page-sidebar__list-anchor,
+.page-sidebar__list-string,
+.page-sidebar__list-item .fa,
+.contact-form__heading-title,
+.product-spec__content-title,
+.product-info__name {
+    color: #000000 !important;
+}
+
+.cart-breadcrumbs .cart-breadcrumbs__menu-string,
+.cart-breadcrumbs .cart-breadcrumbs__menu-anchor:hover,
+.cart-breadcrumbs .cart-.cart-breadcrumbs breadcrumbs__menu-anchor:focus,
+.cart-breadcrumbs .current>.cart-breadcrumbs__menu-string,
+.cart-breadcrumbs__menu-number {
+    border-color: #000000 !important;
+}
+
+.cart-summary__actions-button,
+.customer-orders__block-info-label,
+.customer-orders__actions a,
+#customer-info__accordion .accordion-content,
+#submit_login,
+.product-form__actions-button,
+#sidebar-nav,
+.off-canvas-wrapper,
+.sidebar-summary__title,
+.sidebar-summary__item-empty,
+#sidebar-cart,
+#sidebar-menu .sidebar-menu__submenu,
+#featured-products .featured-products__actions-button,
+.blog-feed__actions .button.blue {
+    background: #000000 !important;
+}
+
+#customer-info__accordion .accordion-title {
+    background: rgba(2, 73, 100, .85) !important;
+    border-color: #000000 !important;
+}
+
+.current>.main-nav__menu-item-string-number,
+.current>.cart-breadcrumbs__menu-string>.cart-breadcrumbs__menu-number {
+    background: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.button.blue.bordered {
+    border-color: #000000 !important;
+}
+
+.button.blue.bordered:hover,
+.button.blue.bordered:focus,
+#product-form__actions-add,
+.customer-orders__block-heading {
+    color: #FFF !important;
+    background: #000000 !important;
+}
+
+#submit_review_order,
+#contactpage .button {
+    color: #FFF !important;
+    background: #000000 !important;
+}
+
+.legend,
+.cart-content label,
+.cart-summary__product-info span,
+.review-info__content-title,
+.review-info__block span,
+.review-info__block p {
+    color: #000000 !important;
+}
+
+.mobile-nav__center-anchor {
+    font-family: Raleway !important;
+}
+
+#featured-products {
+    background: #ffffff !important;
+}
+
+#featured-products .page-heading__title,
+#featured-products .page-heading__text {
+    color: #024964 !important;
+}
+
+#featured-products .product-block__name,
+#featured-products .product-block__price,
+#featured-products .product-block__view-details {
+    color: #40758a !important;
+}
+
+#featured-products .button.blue.bordered {
+    color: #ffffff;
+}
+
+#featured-products .button.blue.bordered {
+    border-color: #16a1ee !important;
+}
+
+#featured-products .button.blue.bordered:hover,
+#featured-products .featured-products__actions-button {
+    background: #16a1ee !important;
+}
